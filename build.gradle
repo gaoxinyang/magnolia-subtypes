@@ -1,0 +1,16 @@
+group 'com.example.magnolia'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'scala'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.12.8'
+    // https://mvnrepository.com/artifact/com.propensive/magnolia
+    compile group: 'com.propensive', name: 'magnolia_2.12', version: '0.10.0'
+
+}
+
