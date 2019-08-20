@@ -34,6 +34,7 @@ package org.example.magnolia.C.codec {
   import org.example.magnolia.C.{C, C1, C2, C3, CC, CC1, CC2, CC3}
 
   object implicits {
+    // comment out the following 4 imports
     import org.example.magnolia.C.codec.implicits.C2_imp
     import org.example.magnolia.B.codec.implicits.CCC_imp
     import org.example.magnolia.B.codec.implicits.CCC1_imp
