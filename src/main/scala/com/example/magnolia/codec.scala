@@ -34,10 +34,10 @@ package org.example.magnolia.C.codec {
   import org.example.magnolia.C.{C, C1, C2, C3, CC, CC1, CC2, CC3}
 
   object implicits {
-//    import org.example.magnolia.C.codec.implicits.C2_imp
-//    import org.example.magnolia.B.codec.implicits.CCC_imp
-//    import org.example.magnolia.B.codec.implicits.CCC1_imp
-//    import org.example.magnolia.B.codec.implicits.CCC2_imp
+    import org.example.magnolia.C.codec.implicits.C2_imp
+    import org.example.magnolia.B.codec.implicits.CCC_imp
+    import org.example.magnolia.B.codec.implicits.CCC1_imp
+    import org.example.magnolia.B.codec.implicits.CCC2_imp
 
     implicit lazy val C_imp: Subtypes[C] = Subtypes.gen
     implicit lazy val C1_imp: Subtypes[C1] = Subtypes.gen
